@@ -92,7 +92,35 @@ app.get("/updateemployee/:id", (req, res) => {
 	});
   
   });
+// Delete employee
 
+app.get("/deleteemployee/:id", (req, res) => {
+
+	let sql = `DELETE FROM employee WHERE id = ${req.params.id}`;
+  
+	let query = db.query(sql, (err) => {
+  
+	  if (err) {
+  
+		throw err;
+  
+	  }
+  
+	  res.send("Employee deleted");
+  
+	});
+  
+  });
+  
+   
+  
+  app.listen("3000", () => {
+  
+	console.log("Server started on port 3000");
+  
+  });
+  
+  
 // Define the MySQL connection parameters
 
   // Create DB

@@ -50,7 +50,28 @@ app.get("/createdb", (req, res) => {
 	});
   
   });
+// Create table
 
+app.get("/createemployee", (req, res) => {
+
+	let sql =
+  
+	  "CREATE TABLE employee(id int AUTO_INCREMENT, name VARCHAR(255), designation VARCHAR(255), PRIMARY KEY(id))";
+  
+	db.query(sql, (err) => {
+  
+	  if (err) {
+  
+		throw err;
+  
+	  }
+  
+	  res.send("Employee table created");
+  
+	});
+  
+  });
+  
 // Define the MySQL connection parameters
 
   // Create DB

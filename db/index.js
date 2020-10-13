@@ -71,7 +71,28 @@ app.get("/createemployee", (req, res) => {
 	});
   
   });
+  // Update employee
+
+app.get("/updateemployee/:id", (req, res) => {
+
+	let newName = "Updated name";
   
+	let sql = `UPDATE employee SET name = '${newName}' WHERE id = ${req.params.id}`;
+  
+	let query = db.query(sql, (err) => {
+  
+	  if (err) {
+  
+		throw err;
+  
+	  }
+  
+	  res.send("Post updated...");
+  
+	});
+  
+  });
+
 // Define the MySQL connection parameters
 
   // Create DB

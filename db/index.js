@@ -157,7 +157,7 @@ function addRole() {
             function(err, res, fields) {
             console.log(`You have added this role: ${(values[0]).toUpperCase()}.`)
         })
-            viewRoles()
+            viewAllRoles()
             })
         })
     })

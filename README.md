@@ -28,7 +28,7 @@ Yes. There will be a video provided for this project for more clarity on how it 
 undefined
 
 ## Badges
-undefined
+![Badge_Life](https://img.shields.io/github/license/JDBgit9/Employee-Tracker)
 
 ## License 
 MIT

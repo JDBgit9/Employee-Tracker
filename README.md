@@ -25,7 +25,7 @@ Ann Steele, JCS50, Worklight Production, Aaron LaVigne, Jenna Rubaii, Justin Mur
 Yes. There will be a video provided for this project for more clarity on how it was all put together.
 
 ## Sources/links
-![Video_tutorial](https://drive.google.com/file/d/112pJuxuyjEdGAj-XleBNOZ-o2L7dkkqi/view)
+![Video](https://drive.google.com/file/d/112pJuxuyjEdGAj-XleBNOZ-o2L7dkkqi/view)
 
 ## Badges
 ![Badge_Life](https://img.shields.io/github/license/JDBgit9/Employee-Tracker)
